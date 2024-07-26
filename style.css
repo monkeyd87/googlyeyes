@@ -1,0 +1,32 @@
+/* styles.css */
+
+
+.eye {
+
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: black 1px solid;
+    border-radius: 50%;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.pupil {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px; /* Centered initially */
+    left: 3px; /* Centered initially */
+}
+
+
+.anchor{
+    display: flex;
+    width:20% ;
+    position: relative;
+}
